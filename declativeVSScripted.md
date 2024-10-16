@@ -8,7 +8,7 @@ In Jenkins, pipelines are essential for automating the software delivery process
 
 | Feature                       | Scripted Pipeline                               | Declarative Pipeline                           |
 |-------------------------------|------------------------------------------------|------------------------------------------------|
-| **Syntax**                    | Uses a Groovy-based syntax.                    | Uses a simpler, more structured syntax.       |
+| **Syntax**                    | Uses a Groovy-based syntax.                    | while the syntax for Declarative Pipeline is also based on Groovy, but it uses a more structured and predefined format.      |
 | **Complexity**                | Better suited for complex workflows.           | Ideal for straightforward, linear workflows.  |
 | **Readability**               | Can become complex and harder to read.        | Generally more readable and maintainable.     |
 | **Control Flow**              | Supports advanced Groovy constructs (loops, conditionals). | Limited control flow; focuses on stages.      |
